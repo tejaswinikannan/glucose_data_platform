@@ -124,3 +124,87 @@
 [2026-02-12T02:57:23.807+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:57:23.807+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2026-02-12T02:57:23.820+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:57:23.819+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
 [2026-02-12T02:57:23.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.203 seconds
+[2026-02-12T02:57:54.931+0000] {processor.py:161} INFO - Started process (PID=66) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:57:54.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T02:57:54.933+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:57:54.933+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:57:54.963+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:57:55.007+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:57:55.007+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T02:57:55.021+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:57:55.021+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T02:57:55.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.153 seconds
+[2026-02-12T02:58:25.746+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:58:25.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T02:58:25.750+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:58:25.749+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:58:25.772+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:58:25.803+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:58:25.803+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T02:58:25.816+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:58:25.816+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T02:58:25.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.131 seconds
+[2026-02-12T02:58:56.703+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:58:56.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T02:58:56.706+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:58:56.705+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:58:56.724+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:58:56.765+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:58:56.765+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T02:58:56.781+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:58:56.781+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T02:58:56.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.165 seconds
+[2026-02-12T02:59:27.430+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:59:27.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T02:59:27.433+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:59:27.433+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:59:27.469+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:59:27.505+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:59:27.505+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T02:59:27.521+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:59:27.520+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T02:59:27.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.156 seconds
+[2026-02-12T02:59:58.297+0000] {processor.py:161} INFO - Started process (PID=70) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:59:58.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T02:59:58.299+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:59:58.298+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:59:58.316+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T02:59:58.350+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:59:58.350+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T02:59:58.377+0000] {logging_mixin.py:188} INFO - [2026-02-12T02:59:58.377+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T02:59:58.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.203 seconds
+[2026-02-12T03:00:29.169+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:00:29.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T03:00:29.171+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:00:29.171+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:00:29.193+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:00:29.223+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:00:29.223+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T03:00:29.238+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:00:29.238+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T03:00:29.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.136 seconds
+[2026-02-12T03:00:59.876+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:00:59.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T03:00:59.878+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:00:59.878+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:00:59.893+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:00:59.917+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:00:59.917+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T03:00:59.926+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:00:59.926+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T03:00:59.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.122 seconds
+[2026-02-12T03:01:30.837+0000] {processor.py:161} INFO - Started process (PID=73) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:01:30.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T03:01:30.839+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:01:30.839+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:01:30.862+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:01:30.893+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:01:30.892+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T03:01:30.913+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:01:30.913+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T03:01:30.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.152 seconds
+[2026-02-12T03:02:01.688+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:02:01.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T03:02:01.691+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:02:01.690+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:02:01.714+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:02:01.743+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:02:01.742+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T03:02:01.756+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:02:01.756+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T03:02:01.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.132 seconds
+[2026-02-12T03:02:32.682+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:02:32.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T03:02:32.685+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:02:32.685+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:02:32.711+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:02:32.744+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:02:32.743+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T03:02:32.756+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:02:32.756+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T03:02:32.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.136 seconds
+[2026-02-12T03:03:03.399+0000] {processor.py:161} INFO - Started process (PID=76) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:03:03.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T03:03:03.402+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:03:03.401+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:03:03.421+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:03:03.447+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:03:03.447+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T03:03:03.458+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:03:03.458+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T03:03:03.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.117 seconds
+[2026-02-12T03:03:34.175+0000] {processor.py:161} INFO - Started process (PID=77) to work on /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:03:34.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2026-02-12T03:03:34.177+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:03:34.177+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:03:34.193+0000] {processor.py:840} INFO - DAG(s) 'glucose_pipeline' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2026-02-12T03:03:34.219+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:03:34.219+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2026-02-12T03:03:34.231+0000] {logging_mixin.py:188} INFO - [2026-02-12T03:03:34.230+0000] {dag.py:3834} INFO - Setting next_dagrun for glucose_pipeline to None, run_after=None
+[2026-02-12T03:03:34.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.112 seconds
