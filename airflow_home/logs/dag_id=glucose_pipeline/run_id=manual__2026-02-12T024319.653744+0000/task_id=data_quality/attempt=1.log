@@ -1,0 +1,27 @@
+[2026-02-12T02:49:01.698+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: glucose_pipeline.data_quality manual__2026-02-12T02:43:19.653744+00:00 [queued]>
+[2026-02-12T02:49:01.717+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: glucose_pipeline.data_quality manual__2026-02-12T02:43:19.653744+00:00 [queued]>
+[2026-02-12T02:49:01.718+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2026-02-12T02:49:01.751+0000] {taskinstance.py:2217} INFO - Executing <Task(BashOperator): data_quality> on 2026-02-12 02:43:19.653744+00:00
+[2026-02-12T02:49:01.757+0000] {standard_task_runner.py:60} INFO - Started process 176 to run task
+[2026-02-12T02:49:01.761+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'glucose_pipeline', 'data_quality', 'manual__2026-02-12T02:43:19.653744+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_dag.py', '--cfg-path', '/tmp/tmpo_8kl349']
+[2026-02-12T02:49:01.762+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask data_quality
+[2026-02-12T02:49:01.873+0000] {task_command.py:423} INFO - Running <TaskInstance: glucose_pipeline.data_quality manual__2026-02-12T02:43:19.653744+00:00 [running]> on host 0cd73eebbd07
+[2026-02-12T02:49:01.990+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='glucose_pipeline' AIRFLOW_CTX_TASK_ID='data_quality' AIRFLOW_CTX_EXECUTION_DATE='2026-02-12T02:43:19.653744+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-02-12T02:43:19.653744+00:00'
+[2026-02-12T02:49:01.991+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-02-12T02:49:01.992+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /project && python warehouse/data_quality.py']
+[2026-02-12T02:49:01.998+0000] {subprocess.py:86} INFO - Output:
+[2026-02-12T02:49:02.020+0000] {subprocess.py:93} INFO - python: can't open file '/project/warehouse/data_quality.py': [Errno 2] No such file or directory
+[2026-02-12T02:49:02.024+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2026-02-12T02:49:02.041+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2026-02-12T02:49:02.045+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=glucose_pipeline, task_id=data_quality, execution_date=20260212T024319, start_date=20260212T024901, end_date=20260212T024902
+[2026-02-12T02:49:02.085+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 6 for task data_quality (Bash command failed. The command returned a non-zero exit code 2.; 176)
+[2026-02-12T02:49:02.094+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-02-12T02:49:02.122+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
